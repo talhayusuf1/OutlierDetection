@@ -1,0 +1,29 @@
+Outlier icin ilkonce medyan secilir daha sonra ilk yarının a.ortalaması sonra ikinci yarının aritmetik ortalaması alınır.
+İLk yarının ortalaması Q1 olur Medyan Q2 ikinci yarı ise Q3 olur daha sonra (Q3-Q1) den ıqr degeri bulunur.
+Daha sonra alt_limit (Q1-1.5*IQR)    Ust Limit (Q3-1.5*IQR)
+
+Isim         Boy
+
+can          88
+ali          132
+tugce        134
+ayse         137 
+nihan        139
+sahin        142
+kaan         142
+emre         144=Medyan=Q2
+bartu        147
+ismail       148
+gokalp       149
+osman        149
+filiz        150
+veli         207
+ilker        234
+
+Q1(Percentile%25) = 138
+Q1(Percentile%25) = 149
+
+alt_limit= Q1-1.5*IQR = 121.5
+ust_limit = Q3 + 1.5*IQR = 165.5
+
+Yani budegerlerin arasında olmalı
